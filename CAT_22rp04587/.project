@@ -35,24 +35,25 @@
 			<location>D:/2nd JAVA/java_connector_dba/mysql-connector-java-8.0.29.jar</location>
 		</link>
 		<link>
-			<name>src/main/webapp/connection.jsp</name>
+			<name>src/main/webapp/conn.jsp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/crud/src/main/connection.jsp</locationURI>
+			<locationURI>copy_PARENT/crud/src/main/conn.jsp</locationURI>
 		</link>
 		<link>
-			<name>src/main/webapp/delete.jsp</name>
+			<name>src/main/webapp/insert.jsp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/crud/src/main/delete.jsp</locationURI>
+			<locationURI>copy_PARENT/crud/src/main/insert.jsp</locationURI>
 		</link>
 		<link>
-			<name>src/main/webapp/login_process.jsp</name>
+			<name>src/main/webapp/update.jsp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/crud/src/main/login_process.jsp</locationURI>
-		</link>
-		<link>
-			<name>src/main/webapp/navigation.jsp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/crud/src/main/navigation.jsp</locationURI>
+			<locationURI>copy_PARENT/crud/src/main/update.jsp</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>copy_PARENT</name>
+			<value>$%7BPARENT-3-PROJECT_LOC%7D/eclipse-workspace</value>
+		</variable>
+	</variableList>
 </projectDescription>

@@ -35,7 +35,7 @@ try {
         // You can redirect to another page or set session attributes here
     } else {
         out.println("<h3>Login failed!</h3>");
-        out.println("<p>Invalid registration number or password.</p>");
+        out.println("<p>Invalid email or password.</p>");
         out.println("<a href='login.jsp'>Try again</a>");
     }
 } catch (SQLException e) {
